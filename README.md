@@ -1,17 +1,23 @@
+Cuis
+----
+
+
 [Cuis](http://www.jvuletich.org/Cuis/Index.html) is a free Smalltalk-80 environment originally derived from [Squeak] (www.squeak.org) with a specific set of goals: being simple and powerful. It is also portable to any platform, fast and efficient. This means it is a great tool for running on any hardware, ranging from supercomputers to tablets and smart phones, and everything in between, including regular PCs.
 
-Cuis is:
-    - Simple
-    - Small
-    - Clean
+Cuis is
+
+* Simple
+* Small
+* Clean
  
 Like Squeak, Pharo and other Squeak variants, Cuis is also:
-    - Open Source
-    - Multiplatform
+* Open Source
+* Multiplatform
 
 Like other Smalltalk-80 environments (including Squeak, Pharo and others), Cuis is also:
-    - A complete development environment written in itself
-    - A pure Object Oriented language
+* A complete development environment written in itself
+* A pure Object Oriented language
+
 
 Cuis is different from other Squeak variants in that it takes an active attitude towards system complexity.
 
