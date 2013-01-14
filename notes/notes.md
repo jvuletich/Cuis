@@ -9,24 +9,29 @@ Installation
 
 "Packages:"
 
-   SystemVersion current highestUpdate. "--> 1549"
-   packageFileNameList do:
-    [:packageNameStr | FileStream fileIn: packageFileNameStr ].
     SystemVersion current highestUpdate. "--> 1549"
+    
+    packageFileNameList do:
+     [:packageNameStr | 
+        FileStream fileIn: packageFileNameStr 
+     ].
+    
+    SystemVersion current highestUpdate. "--> 1549"
+
 
 
 "Updates:"
 
 
-   SystemVersion current highestUpdate. "--> 1511"
+    SystemVersion current highestUpdate. "--> 1511"
    
-   updateFileNameList := 
+    updateFileNameList := 
          (FileDirectory default directoryNamed: 
               'UpdatesSinceLastRelease') 
          fileNames.
 
 
-   updateFileNameList do:
+    updateFileNameList do:
       
      [:changeFileNameStr | 
         FileStream install: 
@@ -34,7 +39,7 @@ Installation
            changeFileNameStr) 
       ].
    
-   SystemVersion current highestUpdate. "--> 1549"
+    SystemVersion current highestUpdate. "--> 1549"
 
 
 
@@ -66,25 +71,30 @@ How to set a background image
 
 
 
-Display.
-
-
-ProjectX ui.
-
-
-Display runningWorld
+    Display.
 
 
 
-#runningWorld
+    ProjectX ui.
 
 
 
+    Display runningWorld
 
-spawnNewMorphicProcessFor: aWorld
+
+
+    #runningWorld
 
 
 
 
+    #spawnNewMorphicProcessFor: aWorld
 
+
+Method
+
+
+    
 #usefulExpressionsContents
+
+contains the string for the "Useful Expressions" workspace.
