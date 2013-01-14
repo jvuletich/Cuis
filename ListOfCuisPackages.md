@@ -105,23 +105,30 @@ Not yet tested
 
 
 
+
 Installation scripts
 -----------------------------------------------
 
+An example
 
-    "To install Cypress, assuming the package files are in 'cuis-cypress-master'
-    in a subdirectory of the working directory"
+    "To install Cuis-JSON assuming the repository is in a sibling directory of the Cuis directory"
 
-    #( 
-     'cuis-cypress-master\Cypress-Definitions.pck'
-     'cuis-cypress-master\Cypress-Structure.pck'
-     'cuis-cypress-master\Cypress-Mocks.pck'
-     'cuis-cypress-master\Cypress-Tests.pck'
-    )  
-       do: 
-        [ :fileName | CodeFileBrowser installPackage:
-                          (FileStream concreteStream readOnlyFileNamed: fileName)
-        ]
+    | slash |
 
- 
+    slash _ FileDirectory slash.
+
+    {
+         '..', slash, 'Cuis-CompatibilityWithOtherSmalltalks', slash,
+      'Cuis-CompatibilityWithOtherSmalltalks.pck.st' .
+
+         '..', slash, 'Cuis-JSON', slash,
+      'Cuis-JSON.pck.st'.
+
+    }
+
+    do:
+
+    [ :fileName | CodeFileBrowser installPackage:
+                 (FileStream concreteStream readOnlyFileNamed: fileName)
+    ] 
  
