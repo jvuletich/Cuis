@@ -1,4 +1,4 @@
-The following is a list of github repositories with packages for the Cuis Smalltalk system.
+﻿The following is a list of github repositories with packages for the Cuis Smalltalk system.
 
 https://github.com/jvuletich/Cuis 
 
@@ -39,6 +39,9 @@ List of packages which load fine into Cuis 4.1
   Monticello-style definitions for Cuis ... needed for Cuis support of common Smaltalk source import/export format.
   All tests pass.
 
+* https://github.com/garduino/Cuis-JSON
+  JSON support for Cuis (Ported from Pharo)
+  All 12 tests pass. Limited Unicode support.
 
  
 Other packages practically tested
