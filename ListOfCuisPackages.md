@@ -1,4 +1,4 @@
-The following is a list of github repositories with packages for the Cuis Smalltalk system.
+﻿The following is a list of github repositories with packages for the Cuis Smalltalk system.
 
 https://github.com/jvuletich/Cuis 
 
@@ -39,6 +39,9 @@ List of packages which load fine into Cuis 4.1
   Monticello-style definitions for Cuis ... needed for Cuis support of common Smaltalk source import/export format.
   All tests pass.
 
+* https://github.com/garduino/Cuis-JSON
+  JSON support for Cuis (Ported from Pharo)
+  All 12 tests pass. Limited Unicode support.
 
  
 Other packages practically tested
@@ -102,23 +105,30 @@ Not yet tested
 
 
 
+
 Installation scripts
 -----------------------------------------------
 
+An example
 
-    "To install Cypress, assuming the package files are in 'cuis-cypress-master'
-    in a subdirectory of the working directory"
+    "To install Cuis-JSON assuming the repository is in a sibling directory of the Cuis directory"
 
-    #( 
-     'cuis-cypress-master\Cypress-Definitions.pck'
-     'cuis-cypress-master\Cypress-Structure.pck'
-     'cuis-cypress-master\Cypress-Mocks.pck'
-     'cuis-cypress-master\Cypress-Tests.pck'
-    )  
-       do: 
-        [ :fileName | CodeFileBrowser installPackage:
-                          (FileStream concreteStream readOnlyFileNamed: fileName)
-        ]
+    | slash |
 
- 
+    slash _ FileDirectory slash.
+
+    {
+         '..', slash, 'Cuis-CompatibilityWithOtherSmalltalks', slash,
+      'Cuis-CompatibilityWithOtherSmalltalks.pck.st' .
+
+         '..', slash, 'Cuis-JSON', slash,
+      'Cuis-JSON.pck.st'.
+
+    }
+
+    do:
+
+    [ :fileName | CodeFileBrowser installPackage:
+                 (FileStream concreteStream readOnlyFileNamed: fileName)
+    ] 
  
