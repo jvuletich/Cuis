@@ -1,4 +1,4 @@
-﻿The following is a list of github repositories with packages for the Cuis Smalltalk system.
+The following is a list of github repositories with packages for the Cuis Smalltalk system.
 
 https://github.com/jvuletich/Cuis 
 
@@ -43,6 +43,10 @@ List of packages which load fine into Cuis 4.1
   JSON support for Cuis (Ported from Pharo)
   All 12 tests pass. Limited Unicode support.
 
+* https://github.com/KenDickey/Cuis-Ia-En
+  An application to seek an Interlingua <-> English dictionary.
+  A good example of a simple GUI
+
  
 Other packages practically tested
 -----------------------------------------------
@@ -67,7 +71,6 @@ Other packages practically tested
   Port from http://www.squeaksource.com/WebClient.html
   tested by Germán Arduino, far from being usable
 
-
 * https://github.com/pbella/Cuis-Ports
   HTML parser; does not load properly. 
 (TextFontChange is Undeclared) 
@@ -83,17 +86,14 @@ Other packages practically tested
 (PopUpChoiceMorph is Undeclared)
 
 
-Not yet tested
------------------------------------------------
+Not yet tested / Still in development / Not adapted to latest Cuis updates
+---------------------------------------------------------------------------------------
 
 * https://github.com/garduino/Cuis-Pharo14CompatibilityLayer
  contains mainly network classes, work in progress.
 
 * https://github.com/bpieber/Cuis-StyledTextEditor
-
-* Help System 
-
-* SSL
+  (works ok in Cuis 4.0, updates for Cuis 4.1 in progress)
 
 * FFI from https://github.com/bpieber/Cuis-StyledTextEditor 
 
@@ -103,6 +103,11 @@ Not yet tested
 
 * https://github.com/garduino/Cuis-Zinc (not ready)
 
+* https://github.com/KenDickey/Cuis-Solitaire (not ready)
+
+* Help System 
+
+* SSL
 
 
 
@@ -112,22 +117,16 @@ Installation scripts
 An example
 
     "To install Cuis-JSON assuming the repository is in a sibling directory of the Cuis directory"
-
     | slash |
-
     slash _ FileDirectory slash.
 
     {
          '..', slash, 'Cuis-CompatibilityWithOtherSmalltalks', slash,
       'Cuis-CompatibilityWithOtherSmalltalks.pck.st' .
-
          '..', slash, 'Cuis-JSON', slash,
       'Cuis-JSON.pck.st'.
-
     }
-
     do:
-
     [ :fileName | CodeFileBrowser installPackage:
                  (FileStream concreteStream readOnlyFileNamed: fileName)
     ] 
