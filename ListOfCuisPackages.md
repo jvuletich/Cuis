@@ -45,11 +45,20 @@ List of packages which load fine into Cuis 4.1
 
 * https://github.com/KenDickey/Cuis-Ia-En
   An application to seek an Interlingua <-> English dictionary.
-  A good example of a simple GUI
+  A good example of a simple GUI.
 
+* https://github.com/KenDickey/Cuis-NamedColors
+  A LOT of named colors. Including several sets.
+
+* https://github.com/hhzl/Cuis-SQLite
+  A port of SQLite interface for Cuis.
  
 Other packages practically tested
 -----------------------------------------------
+
+* https://github.com/KenDickey/Cuis-Solitaire
+  Solitaire:  Klondike & FreeCell Solitaire Games
+  Cuis port of the classic Squeak card games.
 
 *  https://github.com/pbella/Cuis-Ports
  XML and XPath.
@@ -58,10 +67,6 @@ Other packages practically tested
 *  https://github.com/garduino/Cuis-SandstoneDB
  SandstoneDb, Simple ActiveRecord Style Persistence in Cuis.
  Still 1 test failing.
- 
-*  https://github.com/garduino/Cuis-JSON
- JSON Support for Cuis
- Still 1 test failing.
 
 *  https://github.com/pmon/Cuis-ProfStef
    ProfStef for Cuis Smalltalk
@@ -69,7 +74,7 @@ Other packages practically tested
 
 * https://github.com/davidgraham/Cuis-WebClient
   Port from http://www.squeaksource.com/WebClient.html
-  tested by Germ√°n Arduino, far from being usable
+  tested by Germán Arduino, far from being usable
 
 * https://github.com/pbella/Cuis-Ports
   HTML parser; does not load properly. 
@@ -102,8 +107,6 @@ Not yet tested / Still in development / Not adapted to latest Cuis updates
 * https://github.com/garduino/Cuis-Swazoo (work in progress)
 
 * https://github.com/garduino/Cuis-Zinc (not ready)
-
-* https://github.com/KenDickey/Cuis-Solitaire (not ready)
 
 * Help System 
 
