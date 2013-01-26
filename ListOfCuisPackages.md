@@ -52,6 +52,10 @@ List of packages which load fine into Cuis 4.1
 
 * https://github.com/hhzl/Cuis-SQLite
   A port of SQLite interface for Cuis.
+
+* https://github.com/garduino/Cuis-Sport
+
+* https://github.com/garduino/Cuis-Swazoo
  
 Other packages practically tested
 -----------------------------------------------
@@ -101,10 +105,6 @@ Not yet tested / Still in development / Not adapted to latest Cuis updates
   (works ok in Cuis 4.0, updates for Cuis 4.1 in progress)
 
 * FFI from https://github.com/bpieber/Cuis-StyledTextEditor 
-
-* https://github.com/garduino/Cuis-Sport (work in progress)
-
-* https://github.com/garduino/Cuis-Swazoo (work in progress)
 
 * https://github.com/garduino/Cuis-Zinc (not ready)
 
