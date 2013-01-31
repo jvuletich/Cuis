@@ -47,9 +47,6 @@ List of packages which load fine into Cuis 4.1
   An application to seek an Interlingua <-> English dictionary.
   A good example of a simple GUI.
 
-* https://github.com/KenDickey/Cuis-NamedColors
-  A LOT of named colors. Including several sets.
-
 * https://github.com/hhzl/Cuis-SQLite
   A port of SQLite interface for Cuis.
 
@@ -57,12 +54,25 @@ List of packages which load fine into Cuis 4.1
 
 * https://github.com/garduino/Cuis-Swazoo
  
-Other packages practically tested
------------------------------------------------
-
 * https://github.com/KenDickey/Cuis-Solitaire
   Solitaire:  Klondike & FreeCell Solitaire Games
   Cuis port of the classic Squeak card games.
+
+* https://github.com/garduino/Cuis-Aida
+Port of Aida Web (http://www.aidaweb.si) to Cuis Smalltalk 4.1
+Taken from Aida6.5-interim.2 from the repo http://www.smalltalkhub.com/#!/~Aida/Aida/versions/Aida6.5-interim.2
+The 80 tests are green.
+
+* https://github.com/hhzl/Cuis-FFI
+FFI port from http://source.squeak.org/FFI for Cuis Smalltalk https://github.com/jvuletich/Cuis
+The port contains
+    FFI-Kernel
+    FFI-Pools
+    FFI-Tests
+
+
+Other packages practically tested
+-----------------------------------------------
 
 *  https://github.com/pbella/Cuis-Ports
  XML and XPath.
@@ -81,18 +91,14 @@ Other packages practically tested
   tested by Germ‡n Arduino, far from being usable
 
 * https://github.com/pbella/Cuis-Ports
-  HTML parser; does not load properly. 
-(TextFontChange is Undeclared) 
-(TextIndent is Undeclared) 
-(SketchMorph is Undeclared) 
-(RectangleMorph is Undeclared)
-(StandardFileMenu is Undeclared)
-(FileUrl is Undeclared)
-(MIMEDocument is Undeclared)
-(GIFReadWriter is Undeclared) 
-(PluggableTextMorph is Undeclared)
-(StringHolder is Undeclared) 
-(PopUpChoiceMorph is Undeclared)
+These are various Smalltalk packages that have been ported to Cuis. Where possible, the original source that the package is based on has been noted in this document as well as in the package description field.
+ Text Processing
+- HTML - a tolerant HTML parser. Does a decent job of consuming the various malformed/invalid HTML out on the web. Based on HTML-sd.2.mcz found at http://squeaksource.com/@HDNjkoaXwriIV8js/Q0l6qq8Y (Some Undeclared)
+- XML-Parser - Based on http://squeaksource.cdn.st/XMLSupport/XML-Parser-NorbertHartl.141.mcz
+- XPath - Based on XML-Parser-AlexandreBergel.15.mcz XPath. Split out from XML-Parser
+- VBRegex - A native regex implementation - no plugin required. Based on http://www.squeaksource.com/Regex/VB-Regex-damienpollet.17.mcz
+Math
+- 3DTransform - Based on 3DTransform-pbm.19.mcz
 
 
 Not yet tested / Still in development / Not adapted to latest Cuis updates
@@ -111,6 +117,9 @@ Not yet tested / Still in development / Not adapted to latest Cuis updates
 * Help System 
 
 * SSL
+
+* https://github.com/KenDickey/Cuis-NamedColors
+  A LOT of named colors. Including several sets.
 
 
 
