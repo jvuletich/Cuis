@@ -28,7 +28,7 @@ Installation
     updateFileNameList := 
          (FileDirectory default directoryNamed: 
               'UpdatesSinceLastRelease') 
-         fileNames.
+         fileNames sort.
 
 
     updateFileNameList do:
