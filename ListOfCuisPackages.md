@@ -70,6 +70,9 @@ The port contains
     FFI-Pools
     FFI-Tests
 
+* https://github.com/KenDickey/Cuis-NamedColors
+  A LOT of named colors. Including several sets.
+
 
 Other packages practically tested
 -----------------------------------------------
@@ -117,9 +120,6 @@ Not yet tested / Still in development / Not adapted to latest Cuis updates
 * Help System 
 
 * SSL
-
-* https://github.com/KenDickey/Cuis-NamedColors
-  A LOT of named colors. Including several sets.
 
 
 
