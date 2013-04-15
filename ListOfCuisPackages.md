@@ -12,6 +12,9 @@ Please update the list as more packages and tests become available (send a note 
 List of packages which load fine into Cuis 4.1
 -----------------------------------------------
 
+* https://github.com/bpieber/Cuis-StyledTextEditor
+ Rich Text Editor based on Styles.
+
 * https://github.com/pmon/Cuis-PetitParser
  PetitParser for Cuis.
  All tests pass.
@@ -109,9 +112,6 @@ Not yet tested / Still in development / Not adapted to latest Cuis updates
 
 * https://github.com/garduino/Cuis-Pharo14CompatibilityLayer
  contains mainly network classes, work in progress.
-
-* https://github.com/bpieber/Cuis-StyledTextEditor
-  (works ok in Cuis 4.0, updates for Cuis 4.1 in progress)
 
 * FFI from https://github.com/bpieber/Cuis-StyledTextEditor 
 
