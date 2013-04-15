@@ -139,7 +139,7 @@ An example
       'Cuis-JSON.pck.st'.
     }
     do:
-    [ :fileName | CodeFileBrowser installPackage:
+    [ :fileName | CodePackageFile installPackageStream:
                  (FileStream concreteStream readOnlyFileNamed: fileName)
     ] 
  
