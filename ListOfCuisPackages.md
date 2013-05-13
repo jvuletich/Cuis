@@ -81,8 +81,8 @@ Other packages practically tested
 -----------------------------------------------
 
 *  https://github.com/KenDickey/Cuis-Ropes
- Functional Strings for Cuis
- High performance for very large texts
+ Functional Strings for Cuis.
+ High performance for very large texts.
 
 *  https://github.com/pbella/Cuis-Ports
  XML and XPath.
@@ -93,12 +93,12 @@ Other packages practically tested
  Still 1 test failing.
 
 *  https://github.com/pmon/Cuis-ProfStef
-   ProfStef for Cuis Smalltalk
-   Does not work; 15 tests run, 6 passed, 9 errors
+   ProfStef for Cuis Smalltalk.
+   Does not work; 15 tests run, 6 passed, 9 errors.
 
 * https://github.com/davidgraham/Cuis-WebClient
   Port from http://www.squeaksource.com/WebClient.html
-  tested by Germán Arduino, far from being usable
+  Tested by Germ√°n Arduino, far from being usable
 
 * https://github.com/pbella/Cuis-Ports
 These are various Smalltalk packages that have been ported to Cuis. Where possible, the original source that the package is based on has been noted in this document as well as in the package description field.
@@ -118,7 +118,7 @@ Not yet tested / Still in development / Not adapted to latest Cuis updates
  Design Sketch showing mechanics for Unicode support. Uses Ropes. cf https://github.com/KenDickey/Cuis-Ropes
 
 * https://github.com/garduino/Cuis-Pharo14CompatibilityLayer
- contains mainly network classes, work in progress.
+ Contains mainly network classes, work in progress.
 
 * FFI from https://github.com/bpieber/Cuis-StyledTextEditor 
 
