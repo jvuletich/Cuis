@@ -80,6 +80,10 @@ The port contains
 Other packages practically tested
 -----------------------------------------------
 
+*  https://github.com/KenDickey/Cuis-Ropes
+ Functional Strings for Cuis
+ High performance for very large texts
+
 *  https://github.com/pbella/Cuis-Ports
  XML and XPath.
  Not all tests pass.
@@ -109,6 +113,9 @@ Math
 
 Not yet tested / Still in development / Not adapted to latest Cuis updates
 ---------------------------------------------------------------------------------------
+
+* https://github.com/KenDickey/Cuis-Unicode
+ Design Sketch showing mechanics for Unicode support. Uses Ropes. cf https://github.com/KenDickey/Cuis-Ropes
 
 * https://github.com/garduino/Cuis-Pharo14CompatibilityLayer
  contains mainly network classes, work in progress.
